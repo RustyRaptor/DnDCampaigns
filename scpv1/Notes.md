@@ -40,7 +40,7 @@ If there is a dimension in the SCP universe and the player's character has the i
 ## Brain Storming Section
 Just a place to jot down ideas. Nothing necessarily needs to leave this section. 
 
-Mapping Info
+##### Mapping Info
 - Area vs Site
 - On-site nuclear warheads
   - Nat 1 on terminal sometimes?
@@ -76,9 +76,43 @@ There's a countless lot of facilities to pick from these are the most common one
 - Site-01
   - Classified safe zone for 05 council and data backup
   - No Anomalies (except the 05 council themselves of course)
+  - Likely wont be involved this iteration.
 - Site-06-3
   - Lorraine, France
   - Use to be in the US then Germany before here
   - Low risk human and humanoid SCPs
-  - This could be great for an easy first campaign but might not be as interesting. 
+  - This could be great for an easy first campaign but might not be as interesting.
+  - This might be useful as a stopping point between sites where the players meet an SCP that joins their journey or helps them in some way. 
+  - Putting on hold for now as having a more core site is more important. 
+- Site 19
+  - Largest facility in operation
+  - So far looks like it would make an excellent starting location and maybe works as a standalone map due to its size.
+  - Ok this is absoltely going to be the first campaign lets get started.
+  - SCP 131
+    - Safe
+    - http://www.scpwiki.com/scp-131
+    - Friendly
+    - makes high pitched babbling sound 
+    - like a cat
+    - bonds with the players
+    - Warns of danger
+    - Roaming the site freely
+  - SCP 173 
+    - No introduction needed
+    - Players will need to announce their actions to avoid being harmed
+    - Need to find a stat block for this guy. 
+  - SCP 055
+    - http://www.scpwiki.com/scp-055
+    - There will be no defense against the anti-meme but I will roll to see if a player is harmed.
+    - Entry of certain distance of the SCP will result in the roll. 
+  - SCP 387
+    - http://www.scpwiki.com/scp-387
+    - Just for fun and story telling
+  - SCP 931
+    - Just for fun and story telling
+    - http://www.scpwiki.com/scp-931
   - 
+
+
+##### Guide character
+It might be a good idea to add in some kind of side NPC character be it an anomaly or employee that follows the players and helps guide them through the world. 

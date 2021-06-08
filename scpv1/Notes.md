@@ -19,6 +19,8 @@ There will be terminals in spots around the map that contain useful information 
 - A nat 20 for example could even give them direct clues to the "Point B".
 - A nat 1 might raise an alarm or accidentally cause a breach in containment or nothing at the DMs choice. 
 
+when information is unlocked I will provide a mixture of personal notes as well as direct links to SCP articles. Players are required to read them on their own. This provides an excellent chance for the DM and other players who don't wanna read to go get some coffee and popcorn. Players who are avid fans of SCP will find these easy to navigate. 
+
 #### Combat
 
 I will avoid making any changes to the combat mechanics. However I will add some things in order to make interacting with certain SCPs interesting. 
@@ -30,3 +32,6 @@ I will avoid making any changes to the combat mechanics. However I will add some
 
 All these will come into play in the combat but core DnD mechanics will be untouched. 
 
+#### Dimensions and planes
+
+If there is a dimension in the SCP universe and the player's character has the information about said dimensions they are welcome to use a DnD spell to access said dimension at the DM's discretion of course. 

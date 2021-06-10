@@ -1,5 +1,5 @@
 # SCP v1 Notes
-#### PLayers and Creatures
+#### Players and Creatures
 In this first iteration I will avoid making any changes to core DnD. The player characters will appear in the SCP universe through some kind of portal or event.
 The creatures and bosses in the SCP world will have stat blocks from existing DnD creatures but with minor changes in appearance, behaviour, and abilities to match their character. 
 
@@ -86,6 +86,7 @@ There's a countless lot of facilities to pick from these are the most common one
   - Putting on hold for now as having a more core site is more important. 
 - Site 19
   - Largest facility in operation
+  - Lansing, Michigan
   - So far looks like it would make an excellent starting location and maybe works as a standalone map due to its size.
   - Ok this is absoltely going to be the first campaign lets get started.
   - SCP 131
@@ -111,8 +112,69 @@ There's a countless lot of facilities to pick from these are the most common one
   - SCP 931
     - Just for fun and story telling
     - http://www.scpwiki.com/scp-931
-  - 
-
-
-##### Guide character
+  - Dr. Jack Bright
+    - https://versus-compendium.fandom.com/wiki/Dr._Jack_Bright
+    - Chainsaw
+    - Chainsaw Canon
+    - Atomic Revolver
+    - Hive Mind
+  - SCP 006-J
+    - http://www.scpwiki.com/scp-006-j
+  - SCP 500
+    - http://www.scpwiki.com/scp-500
+    - Single Use Magical Item
+    - Cures disease and brings to full health.
+  - SCP 017
+    - Good for a puzzle or hazardous zone
+    - http://www.scpwiki.com/scp-017
+    - Reflective Suits
+    - Spotlights
+    - Some spells could help with this.
+  - SCP 3023
+    - http://www.scpwiki.com/scp-3023
+    - Could be good small enemies. 
+    - Maybe wolves or I could find spiders in DnD creatures. 
+    - Maybe have an outbreak of a lot of them from some containment. 
+  - SCP 008
+    - http://www.scpwiki.com/scp-008
+    - Good hazard zone.
+    - Could really mess with players. 
+  - SCP 007
+    - http://www.scpwiki.com/scp-007
+    - maybe fun NPC guide
+  - SCP 019
+    - http://www.scpwiki.com/scp-019
+    - Another great way to generate enemies. 
+  - SCP 027
+    - http://www.scpwiki.com/scp-027
+    - Another great candidate for small enemies. 
+  - SCP 023
+    - http://scp-wiki.wikidot.com/scp-023
+    - maybe
+  - SCP 2820
+    - http://www.scpwiki.com/scp-2820
+    - Useful tool and maybe magic item
+  - SCP 029
+    - http://www.scpwiki.com/scp-029
+    - Could make for an amazing boss battle
+    - High dexterity
+  - SCP 2845
+    - This will be the final boss
+    - based on DnD Solar
+      - https://5thsrd.org/gamemaster_rules/monsters/solar/
+    - https://vsbattles.fandom.com/wiki/SCP-2845
+    - ![3845](./scp_2845_by_amamidori_dakxg9t.png)
+##### Guide characters
 It might be a good idea to add in some kind of side NPC character be it an anomaly or employee that follows the players and helps guide them through the world. 
+
+##### Storage Sectors
+- Storage rooms are secured rooms which contain useful items, information, and sometimes SCPs. 
+- Result of opening one is always positive or neutral. 
+- Storage rooms can be locked by terminals of varying difficulties or not be locked at DM's choice.
+
+
+##### Mobile Terminals
+- This could be a powerful late-game item basically a "pokedex for SCPs"
+- Can be used to quickly make intelligence rolls to learn more about a creature or anomaly. 
+
+ 

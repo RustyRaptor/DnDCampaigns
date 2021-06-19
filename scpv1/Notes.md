@@ -133,8 +133,12 @@ There's a countless lot of facilities to pick from these are the most common one
   - SCP 3023
     - http://www.scpwiki.com/scp-3023
     - Could be good small enemies. 
+      - spider
+        - https://roll20.net/compendium/dnd5e/Spider#content
     - Maybe wolves or I could find spiders in DnD creatures. 
     - Maybe have an outbreak of a lot of them from some containment. 
+    - spider tank
+      - 
   - SCP 008
     - http://www.scpwiki.com/scp-008
     - Good hazard zone.
@@ -162,8 +166,16 @@ There's a countless lot of facilities to pick from these are the most common one
     - This will be the final boss
     - based on DnD Solar
       - https://5thsrd.org/gamemaster_rules/monsters/solar/
+      - TODO: Fully understand and implement 2845's attacks
     - https://vsbattles.fandom.com/wiki/SCP-2845
     - ![3845](./scp_2845_by_amamidori_dakxg9t.png)
+  - SCP 2295
+    - http://www.scpwiki.com/scp-2295
+  - butt ghost
+    - http://www.scpwiki.com/scp-789-j
+  - SCP 1048
+    - http://scp-wiki.wikidot.com/scp-1048
+    - Small enemy
 ##### Guide characters
 It might be a good idea to add in some kind of side NPC character be it an anomaly or employee that follows the players and helps guide them through the world. 
 
@@ -177,4 +189,155 @@ It might be a good idea to add in some kind of side NPC character be it an anoma
 - This could be a powerful late-game item basically a "pokedex for SCPs"
 - Can be used to quickly make intelligence rolls to learn more about a creature or anomaly. 
 
- 
+##### Site-19 Sectors
+
+
+- Hangar Bays 1-30.
+- Manufacturing department industrial buildings
+- SCP-2918 Containment hangar.
+- 55th Wing dislocation.
+- Research Wing A.
+- Mobile Task Force quarters (disguised as the U.S military).
+- Foundation aircraft. MTF-Zeta-5 ("Lazarus Abominables") operation base.
+- Logistics Department (disguised as the U.S. military storage.).
+- Hospital buling.
+- Community Commercial & Services.
+- Mobile Task Force General Supply Depo.
+- Office Buildings.
+- Government buildings.
+- Foundation owned apartments as restrooms for Foundation personnel.
+- Facility 23.
+- Solar System Oversight Department observatory.
+
+- Research Sector 2:
+  - Floor 1: Access to Sector-1. Emergency exit. Checkpoint.
+  - Floor 2-4: Buffer zone. Security Office.
+  - Floor 5 & 6: Equipment Testing Facility.
+  - Floor 7: Cafeteria. Food storage.
+  - Floor 8: Site-Dormitories Block.
+  - Floor 9: Hospital wing.
+  - Floor 10: Research-Labs room.
+  - Floor 11: Secure Humanoid Containment Cells
+  - Floor 12-14: Safe class containment wing. Living Quarters of Maintenance Personnel and Janitors.
+  - Floor 15 & 16: High Value Item Storage Facility. Storage Lockers.
+  - Floor 17-21: Safe class humanoid entity containment.
+  - Floor 22: Safe class containment wing.
+  - Floor 23 & 24:Test chambers. Access to Sector-3
+
+- Office Sector 3:
+  - Floor 1 & 2: Standard humanoid containment cells
+  - Floor 3: Access to Sector-2. Research-Labs rooms
+  - Floor 4 & 5: Research-Labs rooms.
+  - Floor 6: Research-Labs room. Head Security Office.
+  - Floor 7: Site-Dormitories Block. Department-head Offices.
+  - Floor 8: Site-Dormitories Block. Medical-Ward.
+  - Floor 9: Engineering and Technical Service Department.
+  - Floor 10: Research-Labs room.
+  - Floor 11: Class-D Dormitories. Security Office. Training Facility.
+  - Floor 12-16: Cafeteria. Food storage.
+  - Floor 17-22: Research-Labs rooms.
+  - Floor 23 & 24: Research-Labs room. Access to Sector-4.
+
+- Containment Sector 4:
+  - Floor 1 & 2: Standard humanoid containment cells
+  - Floor 3: Access to Section-3.
+  - Floor 4 & 5: Research-Labs rooms. Euclid Class Containment.
+  - Floor 6: Storage Lockers
+  - Floor 7: Site-Dormitories Block. Security offices.
+  - Floor 8: Hospital wing.
+  - Floor 9 & 10: Research Wing B.
+  - Floor 11: Class-D Dormitories. Security Office.
+  - Floor 12: High Value Item Storage Facility. Storage Lockers.
+  - Floor 13: Cafeteria. Food storage.
+  - Floor 14: Armory. Security offices
+  - Floor 15-22: Safe Class Containment. Security offices.
+  - Floor 23-25: Research-Labs rooms.
+  - Floor 26 & 27: Test chambers.
+  - Floor 28-30: Site-Dormitories Access to Sector-5.
+
+- Residential Sector 5:
+  - Floor 1 & 2: Access to Sector-8. Security offices.
+  - Floor 3-6: Offices.
+  - Floor 7-12: Site-Dormitories Block.
+  - Floor 13-16: Class-D Dormitories.
+  - Floor 17-19: Food storage.
+  - Floor 20: Cafeteria.
+  - Floor 21 & 22: Hospital wing.
+  - Floor 23: Security offices.
+  - Floor 23-25: Site-Dormitories Block.
+  - Floor 26-28: Living Quarters of Maintenance Personnel and Janitors.
+  - Floor 29: Access to Sector-6. Security offices.
+
+- Office Sector 6:
+
+  - Floor 1 & 2: Access to Sector-5. Security offices
+  - Floor 3: Living Quarters of Maintenance Personnel and Janitors.
+  - Floor 4-7: Security offices. Training Facility.
+  - Floor 8: Test chambers.
+  - Floor 9: research-Labs rooms
+  - Floor 10: Storage lockers.
+  - Floor 11: Records and Information Security Administration (RAISA) administration offices. Site-19 data servers.
+  - Floor 12: Cafeteria. Food storage.
+  - Floor 13 & 14: Multi-propose rooms.
+  - Floor 15-17: Offices. Security offices. Armory
+  - Floor 18 & 19: Engineering and Technical Service Department offices
+  - Floor 20-25: research-Labs rooms. Site-Dormitories. Hospital wing.
+  - Floor 26: Meeting rooms with other GOI's.
+  - Floor 26: Storage lockers. Access to Sector-7.
+
+- Containment Sector 7:
+  - Floor 1 & 2: Access to Sector-6. Security offices.
+  - Floor 3: High Value Item Storage lockers.
+  - Floor 4-8: Cafeteria. Food storage.
+  - Floor 9: Department of Occult Containment.
+  - Floor 10: Hospital wing.
+  - Floor 11: Research-Labs rooms.
+  - Floor 12: Living Quarters of Maintenance Personnel and Janitors.
+  - Floor 13:Safe Class Containment.
+  - Floor 14: Multi-propose rooms.
+  - Floor 15-22: Secure Humanoid Containment Cells
+  - Floor 23-25: Department of Miscommunications (DoMc) offices. Security offices.
+  - Floor 26: Research-Labs rooms. Access to Sector-8.
+
+- Research Sector 8:
+  - Floor 1: Access to Sector-7. Security offices.
+  - Floor 2: Item Storage lockers.
+  - Floor 3: Test chambers.
+  - Floor 4 & 5: Research-Labs rooms.
+  - Floor 9: Security offices.
+  - Floor 10: Multi-propose rooms.
+  - Floor 11 & 12: Cafeteria. Food storage.
+  - Floor 13: High Value Item Storage lockers.
+  - Floor 14 & 15: Research-Labs rooms.
+  - Floor 16-20: Safe Class Containment. Euclid Class Containment.
+  - Floor 21-25: Site-Dormitories Block.
+  - Floor 26 & 27: Research Wing C.
+  - Floor 28: Access to Sector-9
+
+- Office Sector 9:
+  - Floor 1 & 2: Access to Sector-8. Security offices.
+  - Floor 3 & 4: Class-D Dormitories.
+  - Floor 5: Research-Labs room.
+  - Floor 6: Cafeteria.
+  - Floor 7: Site-19 data servers.
+  - Floor 8: Living Quarters of Maintenance Personnel and Janitors.
+  - Floor 9: Office of Tactical Theology
+  - Floor 10-13: Offices.
+  - Floor 14: Armored Security offices.
+  - Floor 15-17: Test chambers.
+  - Floor 23-25: Site-Dormitories Block.
+  - Floor 26: Offices.
+  - Floor 27: Access to Sector-10. Security offices.
+
+- Containment Sector 10:
+  - Floor 1 & 2: Access to Sector-9. Offices.
+  - Floor 3: Safe Class Containment.
+  - Floor 4-8: Research-Labs room.
+  - Floor 7 & 9: Class-D Dormitories.
+  - Floor 10: High Value Item Storage lockers.
+  - Floor 11: Security offices.
+  - Floor 12 & 13: Test chambers.
+  - Floor 14: Armored Security offices.
+  - Floor 15-18: Euclid Class Containment. Security offices.
+  - Floor 19-22: Armored Security offices. Research-Labs room.
+  - Floor 23: Access to Sector-11.

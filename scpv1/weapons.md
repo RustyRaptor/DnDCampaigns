@@ -113,3 +113,66 @@ The armor consists of bullet-resistant plates, reinforced helmets, and a full-bo
 
 When using the exoskeleton "Red Sun" plays in the background. Additionally the player will feel the urge to say "IM FUCKING INVINCIBLE" when activating the exoskeleton.
 
+
+
+# **Light Machine Gun (M249 SAW)**
+
+**Weapon Type:** Ranged Weapon | Str | Uncommon  
+**Range:** 150/600 ft.   
+**Ammunition:** 5.56mm rounds (100 round belt)  
+**Reload:** 1 action to reload belt
+
+## Usage
+
+### Attacks
+- **Single Shot**: HIT= + Str + Prof | DMG= 1d10 + Str
+- **5-round Burst(uses 5 rounds)** HIT= + Str + Prof | DMG= 2d8 + Str
+- **Suppressive Fire**: Create a cone between 10ft and 40ft of your choice. All creatures making an attack in that cone have disadvantage. On a critical failure they will take 2d8 + Dex piercing damage. Lasts until your next turn. Burns 50 rounds of ammunition. 
+
+Here are the boss cards for **SCP-029**, with two versions: one when she is in bright light (weakened) and one when she is in darkness (fully powerful).
+
+---
+
+
+---
+
+### **SCP-029 ("Daughter of Darkness")** - Fully Powered (Darkness)
+
+**Armor Class:** 20 (Natural Armor)  
+**Hit Points:** 250 (20d8 + 120)  
+**Speed:** 50 ft.
+
+| STR | DEX | CON | INT | WIS | CHA |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| 18 (+4) | 22 (+6) | 18 (+4) | 14 (+2) | 12 (+1) | 20 (+5) |
+
+**Saving Throws:** Dex +13, Cha +12, Wis +7  
+**Skills:** Acrobatics +13, Deception +12, Persuasion +12, Sleight of Hand +13, Stealth +13  
+**Damage Resistances:** Bludgeoning, Piercing, and Slashing from non-magical attacks  
+**Damage Immunities:** Psychic, Necrotic  
+**Condition Immunities:** Charmed, Frightened, Grappled, Restrained, Paralyzed  
+**Senses:** Darkvision 120 ft., passive Perception 13  
+**Languages:** Common, Hindi  
+**Challenge:** 18 (20,000 XP)
+
+---
+
+**Anomalous Properties (Dark Influence):**  
+SCP-029 exerts a powerful influence over male characters. Any male character who starts their turn within line of sight of SCP-029 must make a DC 16 Charisma saving throw or become charmed by her. Charmed creatures will protect SCP-029 and are compelled to follow her commands. This effect lasts until the creature is no longer within line of sight of SCP-029.
+
+**Strangulation Mastery:**  
+SCP-029 can use any object as a weapon to grapple and strangle her opponents. Her attacks never shed blood but instead aim to subdue and strangle her victims.
+
+- **Unarmed Strike:** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* The target is grappled (escape DC 22). Until this grapple ends, the target is restrained, and SCP-029 can’t use this attack on another target.
+
+- **Improvised Weapon (Strangulation):** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* The target is grappled (escape DC 24). SCP-029 has advantage on this attack if she is holding an object to use as a strangulation weapon (e.g., rope, chain, cloth).
+
+**Lair Action:**  
+At the start of her turn, SCP-029 can use a lair action to make the lights in her lair flicker or dim. All creatures within the lair must succeed on a DC 18 Constitution saving throw or be affected as if by the *blindness/deafness* spell (blindness only) until the start of their next turn.
+
+**Shadow Meld:**  
+SCP-029 can meld with the shadows, becoming invisible in areas of dim light or darkness. As a bonus action, she can hide in any area of darkness, and she cannot be detected by non-magical means.
+
+---
+
+These two versions of SCP-029 provide a dynamic challenge depending on the environment. In bright light, she is still dangerous but less powerful, while in darkness, her abilities are fully unleashed, making her a formidable and terrifying opponent. The emphasis on grappling and strangulation, rather than direct damage, creates a unique and thematic combat experience.

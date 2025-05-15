@@ -4,8 +4,8 @@
 **Hit Points:** 250 (20d8 + 120)  
 **Speed:** 50 ft.
 
-| STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA   |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 18 (+4) | 22 (+6) | 18 (+4) | 14 (+2) | 12 (+1) | 20 (+5) |
 
 **Saving Throws:** Dex +13, Cha +12, Wis +7  
@@ -25,24 +25,26 @@ SCP-029 exerts a powerful influence over male characters. Any male character who
 **Strangulation Mastery:**  
 SCP-029 can use any object as a weapon to grapple and strangle her opponents. Her attacks never shed blood but instead aim to subdue and strangle her victims.
 
-- **Unarmed Strike:** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* The target is grappled (escape DC 22). Until this grapple ends, the target is restrained, and SCP-029 can’t use this attack on another target.
+- **Unarmed Strike:** _Melee Weapon Attack:_ +13 to hit, reach 5 ft., one target. _Hit:_ The target is grappled (escape DC 22). Until this grapple ends, the target is restrained, and SCP-029 can’t use this attack on another target.
 
-- **Improvised Weapon (Strangulation):** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* The target is grappled (escape DC 24). SCP-029 has advantage on this attack if she is holding an object to use as a strangulation weapon (e.g., rope, chain, cloth).
+- **Improvised Weapon (Strangulation):** _Melee Weapon Attack:_ +13 to hit, reach 10 ft., one target. _Hit:_ The target is grappled (escape DC 24). SCP-029 has advantage on this attack if she is holding an object to use as a strangulation weapon (e.g., rope, chain, cloth).
 
 **Lair Action:**  
-At the start of her turn, SCP-029 can use a lair action to make the lights in her lair flicker or dim. All creatures within the lair must succeed on a DC 18 Constitution saving throw or be affected as if by the *blindness/deafness* spell (blindness only) until the start of their next turn.
+At the start of her turn, SCP-029 can use a lair action to make the lights in her lair flicker or dim. All creatures within the lair must succeed on a DC 18 Constitution saving throw or be affected as if by the _blindness/deafness_ spell (blindness only) until the start of their next turn.
 
 **Shadow Meld:**  
 SCP-029 can meld with the shadows, becoming invisible in areas of dim light or darkness. As a bonus action, she can hide in any area of darkness, and she cannot be detected by non-magical means.
+
 ---
+
 # **SCP-029 ("Daughter of Darkness")** - Weakened (Bright Light)
 
 **Armor Class:** 18 (Natural Armor)  
 **Hit Points:** 150 (20d8 + 60)  
 **Speed:** 40 ft.
 
-| STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|   STR   |   DEX   |   CON   |   INT   |   WIS   |   CHA   |
+| :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 16 (+3) | 20 (+5) | 17 (+3) | 14 (+2) | 12 (+1) | 19 (+4) |
 
 **Saving Throws:** Dex +11, Cha +10, Wis +7  
@@ -62,9 +64,9 @@ SCP-029 exerts a powerful influence over male characters. Any male character who
 **Strangulation Mastery:**  
 SCP-029 can use any object as a weapon to grapple and strangle her opponents. Her attacks never shed blood but instead aim to subdue and strangle her victims.
 
-- **Unarmed Strike:** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* The target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and SCP-029 can’t use this attack on another target.
+- **Unarmed Strike:** _Melee Weapon Attack:_ +11 to hit, reach 5 ft., one target. _Hit:_ The target is grappled (escape DC 18). Until this grapple ends, the target is restrained, and SCP-029 can’t use this attack on another target.
 
-- **Improvised Weapon (Strangulation):** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* The target is grappled (escape DC 20). SCP-029 has advantage on this attack if she is holding an object to use as a strangulation weapon (e.g., rope, chain, cloth).
+- **Improvised Weapon (Strangulation):** _Melee Weapon Attack:_ +11 to hit, reach 10 ft., one target. _Hit:_ The target is grappled (escape DC 20). SCP-029 has advantage on this attack if she is holding an object to use as a strangulation weapon (e.g., rope, chain, cloth).
 
 **Lair Action:**  
-At the start of her turn, SCP-029 can use a lair action to make the lights in her lair flicker or dim. All creatures within the lair must succeed on a DC 15 Constitution saving throw or be affected as if by the *blindness/deafness* spell (blindness only) until the start of their next turn.
+At the start of her turn, SCP-029 can use a lair action to make the lights in her lair flicker or dim. All creatures within the lair must succeed on a DC 15 Constitution saving throw or be affected as if by the _blindness/deafness_ spell (blindness only) until the start of their next turn.

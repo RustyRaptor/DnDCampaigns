@@ -3,7 +3,7 @@
 **Race:** Unknown (Humanoid Appearance)
 
 **Class:** Enchanter
-
+AC: 10
 **Alignment:** Neutral
 
 **Background:**

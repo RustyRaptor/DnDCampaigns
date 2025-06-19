@@ -86,14 +86,15 @@
 #### Special Weapons
 
 1. Machete
-2. Tear Gas Grenade
-3. SCP-127: Organic MP5K-PDW
-4. Ghost Thrower
-5. Controlled Spellcasting Gauntlets (exoskeleton plugin)
-6. SCP-6952-1: High-Velocity Blade
-7. SCP-6952-2: Gauss Rifle
+2. Tazer (zeus)
+3. Tear Gas Grenade
+4. SCP-127: Organic MP5K-PDW
+5. Ghost Thrower
+6. Controlled Spellcasting Gauntlets (exoskeleton plugin)
+7. SCP-6952-1: High-Velocity Blade
+8. SCP-6952-2: Gauss Rifle
 
-8. Special items
+9. Special items
    1. SCP-6952-4 Matter Displacing Gauntlet (teleporting glove)
    2. SCP-6952-3: Hephaestus-Grade Armor (also a plugin for exosuits)
 

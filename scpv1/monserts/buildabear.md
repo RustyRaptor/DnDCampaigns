@@ -44,9 +44,11 @@ _Small construct, unaligned_
 - **Armor Class** 15 (scrap metal body)
 - **Hit Points** 38 (7d6 + 14)
 - **Speed** 25 ft.
-  |STR|DEX|CON|INT|WIS|CHA|
-  |:---:|:---:|:---:|:---:|:---:|:---:|
-  |14 (+2)|12 (+1)|14 (+2)|4 (-3)|7 (-2)|5 (-3)|
+
+  |   STR   |   DEX   |   CON   |  INT   |  WIS   |  CHA   |
+  | :-----: | :-----: | :-----: | :----: | :----: | :----: |
+  | 14 (+2) | 12 (+1) | 14 (+2) | 4 (-3) | 7 (-2) | 5 (-3) |
+
 - **Skills** Stealth +3
 - **Damage Immunities** poison, psychic
 - **Condition Immunities** charmed, exhaustion, frightened, paralyzed, poisoned

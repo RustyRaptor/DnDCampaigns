@@ -25,7 +25,7 @@
 19. SCP 173 Tshirt
 20. flyswatter crying
 21. Charcoal trapped guy
-22. Cat perfume
+22. Cat perfume △▼△☆
 23. Plastic halo
 24. Funny Bobble head
 25. Beatles headphones
@@ -65,11 +65,11 @@
 59. Happy Shampoo
 60. cat ears twinkling
 
-### Useful Loot
+### *Useful Loot*
 
-1. Ammunition
+1. *Ammunition*
 
-#### Firearms
+#### -Firearms-
 
 1. M16 Rifle
 2. Ak-47
@@ -93,7 +93,6 @@
 6. Controlled Spellcasting Gauntlets (exoskeleton plugin)
 7. SCP-6952-1: High-Velocity Blade
 8. SCP-6952-2: Gauss Rifle
-
 9. Special items
    1. SCP-6952-4 Matter Displacing Gauntlet (teleporting glove)
    2. SCP-6952-3: Hephaestus-Grade Armor (also a plugin for exosuits)
@@ -108,4 +107,4 @@
 ## Bad Loot
 
 1. SCP 113 Gender Bender Rock - https://scp-wiki.wikidot.com/scp-113
-2.
+2. 

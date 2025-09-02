@@ -1,0 +1,55 @@
+--------------
+
+#+begin_quote
+** SCP-173
+:PROPERTIES:
+:CUSTOM_ID: scp-173
+:END:
+/Medium construct, unaligned/ */ - *Armor Class* 26 (natural armor) -
+*Hit Points* 72 (5d8 + 50) - *Speed* 60 ft. /* |STR|DEX|CON|INT|WIS|CHA|
+​|:---:|:---:|:---:|:---:|:---:|:---:| |30 (+10)|15 (+2)|30 (+10)|1
+(-5)|1 (-5)|1 (-5)| */ - *Damage Vulnerabilities* acid, bludgeoning -
+*Damage Resistances* slashing - *Damage Immunities* cold, fire,
+lightning, necrotic, piercing, psychic - *Condition Immunities* blinded,
+charmed, deafened, frightened, grappled, paralyzed, petrified, poisoned,
+unconscious - *Senses* blindsight 60 ft., passive Perception 5 -
+*Languages* --- - *Challenge* 15 (13,000 XP) /* */Don't Blink./* If
+seen, every round all creatures have to make a DC 10 + X(Every round
+they haven't blinked) Constitution saving throw. If they fail this
+throw, they will blink. This will allow SCP-173 to move by 5-10ft. You
+can choose to purposely fail this throw.
+
+*/Pay Attention./* If a creature attacks another creature, they will
+take their eyes off SCP-173. ### Actions */Crunch./* Melee Weapon
+Attack: +15 to hit, reach 5 ft., one target. Hit: 150 (3d100 + 1)
+bludgeoning damage. Have the one you attacked roll a Constitution save.
+They must succeed a DC 10 + (every point above their AC to hit) or drop
+to 0 hp and begin making death saves.
+
+#+end_quote
+
+1
+
+** Personnel
+:PROPERTIES:
+:CUSTOM_ID: personnel
+:END:
+- Roger Anderson - Long-Term Archives
+- Dr. Jack Bright - Director of Personnel
+- Dr. Califano - Retired
+- D-186
+- D-187
+- Dr. Michael Edison - Head of Metafiction Department
+- Dr. Charles Gears - Facility 23 Supervisor, former- director of
+  Euclid-level containment.
+- Dr. Raymond Hamm - SCP-049 Research
+- Dr. Darius Hemsworth
+- Dr. Iceberg
+- Agent Bantay Masipag
+- Dr. Tilda D. Moose - Site Director
+- Dr. Stuart Pherson - SCP-012 Research
+- Technical Researcher David Rosen - Information- Technology Support
+- Junior Researcher Emma Stark - SCP-012 Research
+- Agent Dmitri Arkadeyevich Strelnikov
+- Site Director Wertham - Retired; deceased
+- Agent Fritz Willie

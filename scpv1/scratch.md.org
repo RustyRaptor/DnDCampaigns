@@ -1,0 +1,12 @@
+Striker 9 Weapon Type: Martial Ranged Weapon (Shotgun) Ammunition:
+12-gauge shells Range: 30/90 ft. Firing Modes: Semi-Automatic Magazine
+Size: 12 rounds
+
+Damage: 2d8 piercing damage
+
+Special Features:
+
+#+begin_example
+Wide Spread: All creatures in a 10-ft cone make a Dexterity saving throw (DC 8+STR+Prof) or take full damage.
+Reloading: 1 action to reload.
+#+end_example

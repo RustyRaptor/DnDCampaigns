@@ -15,7 +15,7 @@
   - *Semi-Automatic:*  Consumes 1 round
   - *3-Round-Burst:* Consumes 3 rounds. +1 to hit dice.
 - **Reloading**: Costs 1 action to reload.
-- 	    for (int i = 1; i <= 3; i++) averageExecutionTime += timeArraySort(randomNumberArray, std::get<ALGORITHM>(ALGORITHM_STRING_MAP.at(SELECTION_UNOPTIMIZED)), i);
+-      for (int i = 1; i <= 3; i++) averageExecutionTime += timeArraySort(randomNumberArray, std::get<ALGORITHM>(ALGORITHM_STRING_MAP.at(SELECTION_UNOPTIMIZED)), i);
 
 ## **SCP-127: Organic MP5K-PDW**
 
@@ -90,16 +90,17 @@
   - To function: Water every 2 days, food every 7 days.
   - To stay alive: Water every 5 days, Food every 21 days (will perish at the end)
 
-
 ## M2A1 Browning (Based on "Rifle, automatic")
+
 Weapon Type: Ranged Weapon | STR | Rare
 Damage: 2d8 + STR piercing damage
 Range: 60/800 ft.
 Ammunition: .50 caliber (12.7x99mm NATO) (50 rounds)
-Special Features:
+Special Features
 ---
 
 **Special Features:**
+
 - **Firing Modes:** Switching Consumes a Bonus Action
   - *Semi-Automatic:*  Consumes 1 round. Single Target.
   - *Full-Automatic:*  Consumes 15 rounds. All creatures in a 200ft. line make a dex save. DC 12 take half damage on success.

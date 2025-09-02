@@ -39,7 +39,7 @@
 
 |   STR   |   DEX   |   CON   |  INT   |  WIS   |  CHA   |
 | :-----: | :-----: | :-----: | :----: | :----: | :----: |
-| 22 (+6) | 10 (+0) | 20 (+5) | 3 (-4) | 5 (-3) | 3 (-4) |
+| 22 (+6) z| 10 (+0) | 20 (+5) | 3 (-4) | 5 (-3) | 3 (-4) |
 
 **Saving Throws:** Str +10, Con +9  
 **Damage Resistances:** Bludgeoning, Piercing, and Slashing from non-magical attacks  

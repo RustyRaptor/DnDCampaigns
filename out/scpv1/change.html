@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>SCP Adventures</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <style>
+  .phb#p1{ text-align:center; }
+  .phb#p1:after{ display:none; }
+</style>
+<div style='margin-top:450px;'></div>
+<h1 id="scp-adventures">SCP Adventures</h1>
+<div style='margin-top:25px'></div>
+<div class='wide'>
+##### In containment, no one can hear you scream
+</div>
+<p><img 
+  src='https://i.imgur.com/21Xm50v.jpg' 
+  style='position:absolute; top:300px; right:0px; width:1300px' /></p>
+<style>
+  .phb#p1{ text-align:center; }
+  .phb#p1:after{ display:none; }
+</style>
+<div style='margin-top:450px;'></div>
+<p>\page</p>
+<h1 id="entering-site-19">Entering Site-19</h1>
+<div style='margin-top:25px'></div>
+<div class='wide'>
+##### Just in time for one of the worst containment breaches in history. 
+</div>
+<p><img 
+  src='https://i.imgur.com/YRktAwA.jpg' 
+  style='width:325px' /></p>
+<h1 id="site-19">Site-19</h1>
+<p>Site-19 is the largest SCP Foundation facility. It has hundreds of SCPs in containment ranging from some of the most dangerous to the safest and most beneficial.</p>
+<h2 id="background">Background</h2>
+<p>Site-19 is approximately 35 kilometers northwest of Lansing, Michigan.</p>
+<h2 id="personnel">Personnel</h2>
+<ul>
+<li>Roger Anderson - Long-Term Archives</li>
+<li>Dr. Jack Bright - Director of Personnel</li>
+<li>Dr. Califano - Retired</li>
+<li>D-186</li>
+<li>D-187</li>
+<li>Dr. Michael Edison - Head of Metafiction Department</li>
+<li>Dr. Charles Gears - Facility 23 Supervisor, former- director of Euclid-level containment.</li>
+<li>Dr. Raymond Hamm - SCP-049 Research</li>
+<li>Dr. Darius Hemsworth</li>
+<li>Dr. Iceberg</li>
+<li>Agent Bantay Masipag</li>
+<li>Dr. Tilda D. Moose - Site Director</li>
+<li>Dr. Stuart Pherson - SCP-012 Research</li>
+<li>Technical Researcher David Rosen - Information- Technology Support</li>
+<li>Junior Researcher Emma Stark - SCP-012 Research</li>
+<li>Agent Dmitri Arkadeyevich Strelnikov</li>
+<li>Site Director Wertham - Retired; deceased</li>
+<li>Agent Fritz Willie</li>
+</ul>
+<p>\page</p>
+<h2 id="anomalies">Anomalies</h2>
+<ul>
+<li>SCP-2918
+<ul>
+<li><a href="https://scp-wiki.wikidot.com/scp-2918">https://scp-wiki.wikidot.com/scp-2918</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="sectors-listing">Sectors Listing</h2>
+<ul>
+<li>
+<p>Land Sector 1</p>
+<ul>
+<li>Hangar Bays 1-30.</li>
+<li>Manufacturing department industrial buildings</li>
+<li>SCP-2918 Containment hangar.</li>
+<li>55th Wing dislocation.</li>
+<li>Research Wing A.</li>
+<li>Mobile Task Force quarters (disguised as the U.S military).</li>
+<li>Foundation aircraft. MTF-Zeta-5 (&quot;Lazarus Abominables&quot;) operation base.</li>
+<li>Logistics Department (disguised as the U.S. military storage.).</li>
+<li>Hospital buling.</li>
+<li>Community Commercial &amp; Services.</li>
+<li>Mobile Task Force General Supply Depo.</li>
+<li>Office Buildings.</li>
+<li>Government buildings.</li>
+<li>Foundation owned apartments as restrooms for Foundation personnel.</li>
+<li>Facility 23.</li>
+<li>Solar System Oversight Department observatory.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 2:</p>
+<ul>
+<li>Floor 1: Access to Sector-1. Emergency exit. Checkpoint.</li>
+<li>Floor 2-4: Buffer zone. Security Office.</li>
+<li>Floor 5 &amp; 6: Equipment Testing Facility.</li>
+<li>Floor 7: Cafeteria. Food storage.</li>
+<li>Floor 8: Site-Dormitories Block.</li>
+<li>Floor 9: Hospital wing.</li>
+<li>Floor 10: Research-Labs room.</li>
+<li>Floor 11: Secure Humanoid Containment Cells</li>
+<li>Floor 12-14: Safe class containment wing. Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 15 &amp; 16: High Value Item Storage Facility. Storage Lockers.</li>
+<li>Floor 17-21: Safe class humanoid entity containment.</li>
+<li>Floor 22: Safe class containment wing.</li>
+<li>Floor 23 &amp; 24:Test chambers. Access to Sector-3</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 3:</p>
+<ul>
+<li>Floor 1 &amp; 2: Standard humanoid containment cells</li>
+<li>Floor 3: Access to Sector-2. Research-Labs rooms</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms.</li>
+<li>Floor 6: Research-Labs room. Head Security Office.</li>
+<li>Floor 7: Site-Dormitories Block. Department-head Offices.</li>
+<li>Floor 8: Site-Dormitories Block. Medical-Ward.</li>
+<li>Floor 9: Engineering and Technical Service Department.</li>
+<li>Floor 10: Research-Labs room.</li>
+<li>Floor 11: Class-D Dormitories. Security Office. Training Facility.</li>
+<li>Floor 12-16: Cafeteria. Food storage.</li>
+<li>Floor 17-22: Research-Labs rooms.</li>
+<li>Floor 23 &amp; 24: Research-Labs room. Access to Sector-4.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 4:</p>
+<ul>
+<li>Floor 1 &amp; 2: Standard humanoid containment cells</li>
+<li>Floor 3: Access to Section-3.</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms. Euclid Class Containment.</li>
+<li>Floor 6: Storage Lockers</li>
+<li>Floor 7: Site-Dormitories Block. Security offices.</li>
+<li>Floor 8: Hospital wing.</li>
+<li>Floor 9 &amp; 10: Research Wing B.</li>
+<li>Floor 11: Class-D Dormitories. Security Office.</li>
+<li>Floor 12: High Value Item Storage Facility. Storage Lockers.</li>
+<li>Floor 13: Cafeteria. Food storage.</li>
+<li>Floor 14: Armory. Security offices</li>
+<li>Floor 15-22: Safe Class Containment. Security offices.</li>
+<li>Floor 23-25: Research-Labs rooms.</li>
+<li>Floor 26 &amp; 27: Test chambers.</li>
+<li>Floor 28-30: Site-Dormitories Access to Sector-5.</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 6:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-5. Security offices</li>
+<li>Floor 3: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 4-7: Security offices. Training Facility.</li>
+<li>Floor 8: Test chambers.</li>
+<li>Floor 9: research-Labs rooms</li>
+<li>Floor 10: Storage lockers.</li>
+<li>Floor 11: Records and Information Security Administration (RAISA) administration offices. Site-19 data servers.</li>
+<li>Floor 12: Cafeteria. Food storage.</li>
+<li>Floor 13 &amp; 14: Multi-propose rooms.</li>
+<li>Floor 15-17: Offices. Security offices. Armory</li>
+<li>Floor 18 &amp; 19: Engineering and Technical Service Department offices</li>
+<li>Floor 20-25: research-Labs rooms. Site-Dormitories. Hospital wing.</li>
+<li>Floor 26: Meeting rooms with other GOI's.</li>
+<li>Floor 26: Storage lockers. Access to Sector-7.</li>
+</ul>
+</li>
+</ul>
+<p>\page</p>
+<ul>
+<li>
+<p>Containment Sector 7:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-6. Security offices.</li>
+<li>Floor 3: High Value Item Storage lockers.</li>
+<li>Floor 4-8: Cafeteria. Food storage.</li>
+<li>Floor 9: Department of Occult Containment.</li>
+<li>Floor 10: Hospital wing.</li>
+<li>Floor 11: Research-Labs rooms.</li>
+<li>Floor 12: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 13:Safe Class Containment.</li>
+<li>Floor 14: Multi-propose rooms.</li>
+<li>Floor 15-22: Secure Humanoid Containment Cells</li>
+<li>Floor 23-25: Department of Miscommunications (DoMc) offices. Security offices.</li>
+<li>Floor 26: Research-Labs rooms. Access to Sector-8.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 8:</p>
+<ul>
+<li>Floor 1: Access to Sector-7. Security offices.</li>
+<li>Floor 2: Item Storage lockers.</li>
+<li>Floor 3: Test chambers.</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10: Multi-propose rooms.</li>
+<li>Floor 11 &amp; 12: Cafeteria. Food storage.</li>
+<li>Floor 13: High Value Item Storage lockers.</li>
+<li>Floor 14 &amp; 15: Research-Labs rooms.</li>
+<li>Floor 16-20: Safe Class Containment. Euclid Class Containment.</li>
+<li>Floor 21-25: Site-Dormitories Block.</li>
+<li>Floor 26 &amp; 27: Research Wing C.</li>
+<li>Floor 28: Access to Sector-9</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 9:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-8. Security offices.</li>
+<li>Floor 3 &amp; 4: Class-D Dormitories.</li>
+<li>Floor 5: Research-Labs room.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Office of Tactical Theology</li>
+<li>Floor 10-13: Offices.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-17: Test chambers.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Offices.</li>
+<li>Floor 27: Access to Sector-10. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 10:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-9. Offices.</li>
+<li>Floor 3: Safe Class Containment.</li>
+<li>Floor 4-8: Research-Labs room.</li>
+<li>Floor 7 &amp; 9: Class-D Dormitories.</li>
+<li>Floor 10: High Value Item Storage lockers.</li>
+<li>Floor 11: Security offices.</li>
+<li>Floor 12 &amp; 13: Test chambers.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-18: Euclid Class Containment. Security offices.</li>
+<li>Floor 19-22: Armored Security offices. Research-Labs room.</li>
+<li>Floor 23: Access to Sector-11.</li>
+</ul>
+</li>
+<li>
+<p>Residential Sector 11:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-10. Security offices.</li>
+<li>Floor 3-7: Class-D Dormitories.</li>
+<li>Floor 8-12: Site-Dormitories Block.</li>
+<li>Floor 13-16: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 17-19: Food storage.</li>
+<li>Floor 20: Offices.</li>
+<li>Floor 21 &amp; 22: Hospital wing.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Offices. Cafeteria.</li>
+<li>Floor 27: Access to Sector-12. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 12:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-11. Offices.</li>
+<li>Floor 3: Security offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs room.</li>
+<li>Floor 6: Euclid Class Containment.</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: High Value Item Storage lockers.</li>
+<li>Floor 11: Safe Class Containment.</li>
+<li>Floor 12 &amp; 13: Test chambers.</li>
+<li>Floor 14: Research-Labs room.</li>
+<li>Floor 15-18: Euclid Class Containment. Security offices.</li>
+<li>Floor 19-21: Armored Security offices.</li>
+<li>Floor 22: Access to Sector-13.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 13:</p>
+<ul>
+<li>Floor 1: Access to Sector-12. Security offices.</li>
+<li>Floor 2: Item Storage lockers.</li>
+<li>Floor 3: Multi-propose rooms.</li>
+<li>Floor 4-8: Research-Labs rooms.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10: Research Wing D.</li>
+<li>Floor 11 &amp; 12: Cafeteria. Food storage.</li>
+<li>Floor 13: Safe class containment wing</li>
+<li>Floor 14-17: High Value Item Storage lockers. Research-Labs rooms.</li>
+<li>Floor 18-20:Research-Labs rooms.</li>
+<li>Floor 21-25: Site-Dormitories Block.</li>
+<li>Floor 26 &amp; 27: Department of Extratemporal Studies. Access to Sector-14</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 14:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-13. Security offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5-8: Research-Labs room.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Office of Tactical Theology</li>
+<li>Floor 10-13: Class-D Dormitories.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-17: Test chambers.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Access to Sector-15.</li>
+</ul>
+</li>
+</ul>
+<p>\page</p>
+<ul>
+<li>
+<p>Residential Sector 15:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-14. Security offices.</li>
+<li>Floor 3-7: Class-D Dormitories.</li>
+<li>Floor 8-12: Site-Dormitories Block.</li>
+<li>Floor 13-16: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 17-19: Food storage.</li>
+<li>Floor 20: Offices. cafeteria.</li>
+<li>Floor 21-23: Hospital wing.</li>
+<li>Floor 24-26: Site-Dormitories Block.</li>
+<li>Floor 27: Access to Sector-16. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 16:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-15. Offices.</li>
+<li>Floor 3: Security offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs room.</li>
+<li>Floor 6: Euclid Class Containment.</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: Euclid Class Containment.</li>
+<li>Floor 11-13: Test chambers.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-18: Euclid Class Containment.</li>
+<li>Floor 19-21: Armored Security offices. Research-Labs room.</li>
+<li>Floor 22: Access to Sector-17.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 17:</p>
+<ul>
+<li>Floor 1: Access to Sector-16.</li>
+<li>Floor 2: Security offices.</li>
+<li>Floor 3: Multi-propose rooms.</li>
+<li>Floor 4-8: Research-Labs rooms.</li>
+<li>Floor 9: Food storage.</li>
+<li>Floor 10-12: Research-Labs rooms.</li>
+<li>Floor 13: Cafeteria.</li>
+<li>Floor 14-17: High Value Item Storage lockers.</li>
+<li>Floor 18-20:Research-Labs rooms.</li>
+<li>Floor 21-25: Site-Dormitories Block.</li>
+<li>Floor 26 &amp; 27: Access to Sector-18</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 18:</p>
+<ul>
+<li>Floor 1: Access to Sector-17. Security offices.</li>
+<li>Floor 2: Item Storage lockers.</li>
+<li>Floor 3: Test chambers.</li>
+<li>Floor 4-8: Research-Labs rooms.</li>
+<li>Floor 9 &amp; 10: Multi-propose rooms.</li>
+<li>Floor 11 &amp; 12: Cafeteria. Food storage.</li>
+<li>Floor 13: Security offices.</li>
+<li>Floor 14 &amp; 15: Research-Labs rooms.</li>
+<li>Floor 16-20: Site-Dormitories Block.</li>
+<li>Floor 21: Access to Sector-19</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector-19:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-18. Security Offices.</li>
+<li>Floor 3: Offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms.</li>
+<li>Floor 6 &amp; 7: Maintenance of Euclid class objects.</li>
+<li>Floor 7: Offices. Site-19 data servers</li>
+<li>Floor 8 &amp; 9: Security Offices. Storage cells.</li>
+<li>Floor 10: Cafeteria.</li>
+<li>Floors 11-13: Fortified safe humanoid containment cells.</li>
+<li>Floor 14: Research Wing E.</li>
+<li>Floor 15-17: Euclid Class Containment.</li>
+<li>Floor 18: Security Offices.</li>
+<li>Floor 19-21: Research-Labs rooms.</li>
+<li>Floor 22: Access to Sector-20.</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 20:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-19. Security offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5-8: Research-Labs room.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10-13: Class-D Dormitories.</li>
+<li>Floor 14: Security offices.</li>
+<li>Floor 15-17: Test chambers.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Access to Sector-21.</li>
+</ul>
+</li>
+<li>
+<p>Archive sector Sector-21:</p>
+<ul>
+<li>Floors 1 &amp; 2: Access to Sector-20. Checkpoint.</li>
+<li>Floor 3: Armored Security offices.</li>
+<li>Floor 4 &amp; 5: Site-Dormitories Block.</li>
+<li>Floor 6: Site-19 database servers.</li>
+<li>Floor 7: RAISA office.</li>
+<li>Floors 8-15: Archive of all documentation Reports in paper.</li>
+<li>Floors 16-20: independent separate secure servers.</li>
+<li>Floor 21: Armored Security Offices. Armory.</li>
+<li>Floor 22: Access to Sector 22.</li>
+</ul>
+</li>
+<li>
+<p>Office sector Sector-22:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector 21. Security Offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5: Research-Labs rooms.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Research-Labs rooms.</li>
+<li>Floor 10-13: Class D Dormitories. Cafeteria.</li>
+<li>Floor 14: Security offices.</li>
+<li>Floors 15-17: Offices. Site-Dormitories Block.</li>
+<li>Floors 18-20: Laboratory research rooms. Access to Sector 23.
+\page</li>
+</ul>
+</li>
+<li>
+<p>Protected Sector-23:</p>
+<ul>
+<li>Floors 1 &amp; 2: Transition to Sector-22. Checkpoint.</li>
+<li>Floor 3: Armored Security Offices. Armory.</li>
+<li>Floor 4: Offices. Hospital wing.</li>
+<li>Floor 5: Research-Labs rooms.</li>
+<li>Floor 6: Site Directors' Executive Committee of the Whole (SDECotW) offices.</li>
+<li>Floor 7: Offices of Internal Security Department</li>
+<li>Floor 8: Dormitory block.</li>
+<li>Floor 9: Research-Labs rooms.</li>
+<li>Floor 10-13: Cafeteria.</li>
+<li>Floor 14: Offices of the Security Service. Armory</li>
+<li>Floors 15: Transition to Sector 24.</li>
+</ul>
+</li>
+<li>
+<p>Residential Sector-24:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-23. Security offices.</li>
+<li>Floor 3-7: Class-D Dormitories.</li>
+<li>Floor 8-12: Site-Dormitories Block.</li>
+<li>Floor 13-16: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 17-19: Food storage.</li>
+<li>Floor 20: Offices. cafeteria.</li>
+<li>Floor 21-23: Hospital wing.</li>
+<li>Floor 24-26: Site-Dormitories Block.</li>
+<li>Floor 27: Access to Sector-25. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector-25:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-24. Security Offices.</li>
+<li>Floor 3: Offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs room.</li>
+<li>Floor 6 &amp; 7: Secure Humanoid Containment Cells</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: Euclid Class Containment.</li>
+<li>Floor 11-13: Test chambers.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-18: Euclid Class Containment.</li>
+<li>Floor 19-21: Armored Security offices. Research-Labs room.</li>
+<li>Floor 22: Access to Sector-26.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 26:</p>
+<ul>
+<li>Floor 1: Access to Sector-25.</li>
+<li>Floor 2: Security offices.</li>
+<li>Floor 3: Multi-propose rooms.</li>
+<li>Floor 4-9: Research Wing F.</li>
+<li>Floor 10-12: Storage cells.</li>
+<li>Floor 13: Security offices.</li>
+<li>Floor 14-17: High Value Item Storage lockers.</li>
+<li>Floor 18-20: Research-Labs rooms.</li>
+<li>Floor 21-26: Site-Dormitories Block.</li>
+<li>Floor 27: Access to Sector-27</li>
+</ul>
+</li>
+<li>
+<p>Office Sector-27:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector 26. Security Offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5: Research-Labs rooms.</li>
+<li>Floor 6: Administrative offices.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Research-Labs rooms.</li>
+<li>Floor 10-13: Class D Dormitories. Cafeteria.</li>
+<li>Floor 14: Offices of the Security Service.</li>
+<li>Floor 15-17: Offices. Site-Dormitories Block.</li>
+<li>Floor 18: Access to Sector 28.</li>
+</ul>
+</li>
+<li>
+<p>Storage Sector 28:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-23. Security offices.</li>
+<li>Floor 3-7: Storage cells</li>
+<li>Floor 8-12: Storage of military supplies.</li>
+<li>Floor 13-16: High Value Item Storage lockers.</li>
+<li>Floor 17-19: Food storage. Security Offices.</li>
+<li>Floor 20: Logistic Department offices</li>
+<li>Floor 21-23: Storage of medical substances.</li>
+<li>Floor 24-26: Security Offices.</li>
+<li>Floor 27: Access to Sector-25. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 29:</p>
+<ul>
+<li>Floor 1: Access to Sector-15. Offices.</li>
+<li>Floor 2 &amp; 3: Research-Labs room.</li>
+<li>Floor 4 &amp; 5: Security Offices.</li>
+<li>Floor 6: Euclid Class Containment.</li>
+<li>Floor 7: Department of Thaumatology</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: Storage cells</li>
+<li>Floor 11-13: Test chambers.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-19: Euclid Class Containment.</li>
+<li>Floor 20-22: Armored Security offices. Research-Labs room.</li>
+<li>Floor 23: Access to Sector-30.</li>
+</ul>
+</li>
+<li>
+<p>Special Research Sector 30:</p>
+<ul>
+<li>Floor 1 &amp; 2: Transition to Sector-29. Checkpoint. Armored Security offices.</li>
+<li>Floor 3: Alchemy Division offices.</li>
+<li>Floor 4 &amp; 5: Laboratory research rooms.</li>
+<li>Floor 6: Decommission department</li>
+<li>Floor 7 &amp; 8: Test Chambers.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10: Antimemetics Division</li>
+<li>Floor 11: Current location of SCP-055</li>
+<li>Floor 12: Access to Sector-31. Armored Security offices.</li>
+</ul>
+</li>
+</ul>
+<p>\page</p>
+<ul>
+<li>
+<p>Office Sector-31:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector 31. Security Offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5: Research-Labs rooms.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Cognitohazard Department</li>
+<li>Floor 9: Research-Labs rooms.</li>
+<li>Floor 10-13: Class D Dormitories. Cafeteria.</li>
+<li>Floor 14: Offices of the Security Service.</li>
+<li>Floors 15-17: Offices. Site-Dormitories Block.</li>
+<li>Floors 18-20: Laboratory research rooms. Access to Sector 23.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 32:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-31. Checkpoint.</li>
+<li>Floor 3: Security offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs room.</li>
+<li>Floor 6: High Value Item Storage lockers.</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: High Value Item Storage lockers.</li>
+<li>Floor 11: Blast-shelters</li>
+<li>Floor 12 &amp; 13: Test chambers.</li>
+<li>Floor 14: Research Wing G.</li>
+<li>Floor 15: Keter Class Containment.</li>
+<li>Floor 17 &amp; 18: Test chambers.</li>
+<li>Floor 19-21: Armored Security offices.</li>
+<li>Floor 22: Access to Sector-33.</li>
+</ul>
+</li>
+<li>
+<p>Office Sector-33:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector 32. Security Offices.</li>
+<li>Floor 3 &amp; 4: Offices.</li>
+<li>Floor 5: Research-Labs rooms.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7 &amp; 8: Site-19 data servers.</li>
+<li>Floor 9: Research-Labs rooms.</li>
+<li>Floor 10-13: Amnestics Department.</li>
+<li>Floor 14: Security offices.</li>
+<li>Floors 15-17: Offices. Site-Dormitories Block.</li>
+<li>Floors 18-20: Laboratory research rooms. Access to Sector 34.</li>
+</ul>
+</li>
+<li>
+<p>Residential Sector-34:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-33. Security offices.</li>
+<li>Floor 3-7: Class-D Dormitories.</li>
+<li>Floor 8-12: Site-Dormitories Block.</li>
+<li>Floor 13-16: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 17-19: Food storage.</li>
+<li>Floor 20: Offices.</li>
+<li>Floor 21 &amp; 22: Hospital wing.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Offices. Cafeteria.</li>
+<li>Floor 27: Access to Sector-35. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 35:</p>
+<ul>
+<li>Floor 1: Access to Sector-34.</li>
+<li>Floor 2: Item Storage lockers.</li>
+<li>Floor 3: Security offices.</li>
+<li>Floor 4-8: Research Wing H.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10: Multi-propose rooms.</li>
+<li>Floor 11 &amp; 12: Cafeteria. Food storage.</li>
+<li>Floor 13: High Value Item Storage lockers.</li>
+<li>Floor 14 &amp; 15: Research-Labs rooms.</li>
+<li>Floor 16-18: Chemical Research Division</li>
+<li>Floors 19 &amp; 20: Chemical Research Division labs.</li>
+<li>Floor 21-25: Site-Dormitories Block.</li>
+<li>Floor 26 &amp; 27: Test Chambers.</li>
+<li>Floor 28: Access to Sector-36.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 36:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-35. Checkpoint.</li>
+<li>Floor 3: Security offices.</li>
+<li>Floor 4 &amp; 5: Research-Labs room.</li>
+<li>Floor 6: Test chambers.</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: Site-Dormitories Block.</li>
+<li>Floor 10: Maximum Security Humanoid Containment Cells.</li>
+<li>Floor 11: Armored Security offices.</li>
+<li>Floor 12 &amp; 13: Test chambers.</li>
+<li>Floor 14: Blast Shelter.</li>
+<li>Floor 15-18: Keter Class Containment. Security offices.</li>
+<li>Floor 19-21: Armored Security offices.</li>
+<li>Floor 22: Access to Sector-37.</li>
+</ul>
+</li>
+<li>
+<p>Office Sector-37:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-36. Security offices</li>
+<li>Floor 3: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 4-7: Security offices. Training Facility.</li>
+<li>Floor 8: Test chambers.</li>
+<li>Floor 9: research-Labs rooms</li>
+<li>Floor 10: Storage lockers.</li>
+<li>Floor 11: Records and Information Security Administration (RAISA) administration offices. Site-19 data servers.</li>
+<li>Floor 12: Cafeteria. Food storage.</li>
+<li>Floor 13 &amp; 14: Information Detraction, Censorship, and Rescission Division (IDCaRD).</li>
+<li>Floor 15-17: Offices. Security offices. Armory</li>
+<li>Floor 18 &amp; 19: Engineering and Technical Service Department offices</li>
+<li>Floor 20-25: research-Labs rooms. Site-Dormitories. Hospital wing.</li>
+<li>Floor 26 &amp; 27: Storage lockers. Access to Sector-38.</li>
+</ul>
+</li>
+</ul>
+<p>\page</p>
+<ul>
+<li>
+<p>Containment Sector 38:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-37. Checkpoint. Security offices.</li>
+<li>Floor 3: Research-Labs rooms.</li>
+<li>Floor 4 &amp; 5: Cafeteria. Food storage.</li>
+<li>Floor 6: Storage Cells.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Hospital Wing.</li>
+<li>Floor 9: Memetics and Infohazards Division</li>
+<li>Floor 10 &amp; 11: Research-Labs rooms.</li>
+<li>Floor 12: Maximum Security Humanoid Containment Cells.</li>
+<li>Floor 13: Blast shelter.</li>
+<li>Floor 14 &amp; 15: Keter Class Containment. Security offices.</li>
+<li>Floor 16: Armored Security offices. Armory.</li>
+<li>Floor 17 &amp; 18: Test Chambers.</li>
+<li>Floor 19: High Value Item Storage lockers.</li>
+<li>Floor 20-23: Esoteric Class Containment. Armored Security offices.</li>
+<li>Floor 24: Research-Labs rooms. Access to Sector-39.</li>
+</ul>
+</li>
+<li>
+<p>Other Worlds Study Sector-39:</p>
+<ul>
+<li>Floor 1: Elevator and staircase Access to Sector-38. Checkpoint. Security Office.</li>
+<li>Floor 2-4: Security Office. Site dormitories block.</li>
+<li>Floor 5: Equipment Testing Facility.</li>
+<li>Floor 6: Scranton Reality Anchor.</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8: Food storage.</li>
+<li>Floor 9: Hospital wing.</li>
+<li>Floor 10: Research Wing G.</li>
+<li>Floor 11: Class-E personal Dormitories.</li>
+<li>Floor 12-14: S &amp; C Plastics special Site-19 Branch.</li>
+<li>Floor 15 &amp; 16: Class-E Anomaly containment.</li>
+<li>Floor 17-21: Special Other worlds research Technology Labs. MTF Zeta-9 (&quot;Mole Rats&quot;) Headquarters.</li>
+<li>Floor 22: Research-Labs rooms.</li>
+<li>Floor 23 &amp; 24:Test chambers. Access to Sector-40. Access to Sublevels.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 40:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-39. Checkpoint. Security offices.</li>
+<li>Floor 3: Research-Labs rooms.</li>
+<li>Floor 4 &amp; 5: Cafeteria. Food storage.</li>
+<li>Floor 6: Storage Cells.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Hospital Wing.</li>
+<li>Floor 9: Thaumiel Class Containment</li>
+<li>Floor 10 &amp; 11: Research-Labs rooms.</li>
+<li>Floor 12: Armored Security offices.</li>
+<li>Floor 13: Blast shelter.</li>
+<li>Floor 14 &amp; 15: Keter Class Containment. Security offices.</li>
+<li>Floor 16: Armored Security offices. Armory.</li>
+<li>Floor 17 &amp; 18: Test Chambers.</li>
+<li>Floor 19: High Value Item Storage lockers.</li>
+<li>Floor 20-23: Esoteric Class Containment. Armored Security offices.</li>
+<li>Floor 24: &quot;Olympia-class&quot; containment chamber.</li>
+<li>Floor 25: Research-Labs rooms.</li>
+<li>Floor 26: Access to Sector-41. Access to Sublevels.</li>
+</ul>
+</li>
+<li>
+<p>[REDACTED] Sector 41:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-40. Armored security offices.</li>
+<li>Floor 3 &amp; 4: ██████████████████████. [REDACTED]. ████.</li>
+<li>Floor 5: Research Wing K.</li>
+<li>Floor 6 &amp; 7: [REDACTED], [REDACTED], [REDACTED]. ███████ offices</li>
+<li>Floor 7: Cafeteria.</li>
+<li>Floor 8 &amp; 9: [DATA EXPUNGED]. ████████████</li>
+<li>Floor 10: ██████████████, [REDACTED]</li>
+<li>Floor 11: ████████████</li>
+<li>Floor 12 &amp; 13: [DATA EXPUNGED]. [REDACTED]</li>
+<li>Floor 14: █████████████████████</li>
+<li>Floor 15-18: Security offices.</li>
+<li>Floor 19-21: [REDACTED]. [DATA EXPUNGED]. ████████
+\page</li>
+</ul>
+</li>
+<li>
+<p>Sublevels:</p>
+<ul>
+<li>Sublevels 1-4: Storage of Anomalous Items</li>
+<li>Sublevels 5-6: Safe class items containment wing.</li>
+<li>Sublevels 7-9: Site-Dormitories Block 97-124.</li>
+<li>Sublevels 9 &amp; 10: RAISA archive.</li>
+<li>Sublevels 11-15: Special security teams Dormitories block.</li>
+<li>Sublevel 16: Cafeteria.</li>
+<li>Sublevels 17 &amp; 18: Food storage.</li>
+<li>Sublevel 19: Administrative Offices.</li>
+<li>Sublevel 20: Office of Containment Committee.</li>
+<li>Sublevels 21 &amp; 22: Euclid class items containment wing. Class D Site-Dormitories block 22-30.</li>
+<li>Sublevel 23: Class D Site-Dormitories block 31-39.</li>
+<li>Sublevels 24-27: Armored security offices. Armory.</li>
+<li>Sublevels 28 &amp; 29: Special security teams Dormitories block.</li>
+<li>Sublevels 30-33: Keter Class Containment №9-12</li>
+<li>Sublevels 34 &amp; 35: Armored security office.</li>
+<li>Sublevels 36 &amp; 37: Medical bay. Site-Dormitories Block 125-130.</li>
+<li>Sublevel 38: Research-Labs room 125-129. Security offices.</li>
+<li>Sublevel 39: Containment place of SCP-5003.</li>
+<li>Conditional Sublevel 40: Currently SCP-5003.</li>
+</ul>
+</li>
+</ul>
+
+            
+            
+        </body>
+        </html>

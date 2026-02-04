@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>SCP v1 Notes</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="scp-v1-notes">SCP v1 Notes</h1>
+<h4 id="players-and-creatures">Players and Creatures</h4>
+<p>In this first iteration I will avoid making any changes to core DnD. The player characters will appear in the SCP universe through some kind of portal or event.
+The creatures and bosses in the SCP world will have stat blocks from existing DnD creatures but with minor changes in appearance, behaviour, and abilities to match their character.</p>
+<p>Since there are portals that exist to the DnD universe I can even pull other creatures and bosses from DnD if needed to fill in the gaps.</p>
+<h4 id="map">Map</h4>
+<p>To avoid getting too ambitious <s>I will limit the map to a single SCP Foundation site.</s> I will limit the map to a fixed chain of sites with fixed access points between them. In future iterations I would like to expand the world to have many sites and locations of interest that are openly accessible.</p>
+<h4 id="gameplay">Gameplay</h4>
+<p>The goal and progression of the campaign will be based on getting from point A to point B. Point A being the portal or anomaly the players emerged from. Point B is another anomaly which has the capacity to get the players back home.</p>
+<p>Along the way there will be many challenges and puzzles the players need to overcome in order to get to their destination. Many things can go wrong even to the point of causing world ending scenarios.</p>
+<h4 id="terminals">Terminals</h4>
+<p>There will be terminals in spots around the map that contain useful information about the map and creatures they can find. A player can make an intelligence check to access a terminal. There will be a threshold minimum to gain access and the higher the player rolls the more information they can obtain.</p>
+<ul>
+<li>A nat 20 for example could even give them direct clues to the &quot;Point B&quot;.</li>
+<li>A nat 1 might raise an alarm or accidentally cause a breach in containment or nothing at the DMs choice.</li>
+</ul>
+<p>when information is unlocked I will provide a mixture of personal notes as well as direct links to SCP articles. Players are required to read them on their own. This provides an excellent chance for the DM and other players who don't wanna read to go get some coffee and popcorn. Players who are avid fans of SCP will find these easy to navigate.</p>
+<h4 id="combat">Combat</h4>
+<p>I will avoid making any changes to the combat mechanics. However I will add some things in order to make interacting with certain SCPs interesting.</p>
+<ul>
+<li>There will be special emphasis on how the player uses their senses and positions themselves.</li>
+<li>Which way the character faces.</li>
+<li>Opening eyes/closing eyes</li>
+<li>covering ears</li>
+</ul>
+<p>All these will come into play in the combat but core DnD mechanics will be untouched.</p>
+<h4 id="dimensions-and-planes">Dimensions and planes</h4>
+<p>If there is a dimension in the SCP universe and the player's character has the information about said dimensions they are welcome to use a DnD spell to access said dimension at the DM's discretion of course.</p>
+<h2 id="brain-storming-section">Brain Storming Section</h2>
+<p>Just a place to jot down ideas. Nothing necessarily needs to leave this section.</p>
+<h5 id="mapping-info">Mapping Info</h5>
+<ul>
+<li>Area vs Site</li>
+<li>On-site nuclear warheads
+<ul>
+<li>Nat 1 on terminal sometimes?</li>
+<li>Give warning to players before they roll</li>
+</ul>
+</li>
+<li>Sectors and Units
+<ul>
+<li>Sectors are sections of the site categorized by purpose.</li>
+<li>Units are self contained sections containing special anomalies with higher secutity and isolation.</li>
+</ul>
+</li>
+<li>Prefixes for sites and areas
+<ul>
+<li>Armed
+<ul>
+<li>High secutity section</li>
+</ul>
+</li>
+<li>Biological (Bio)
+<ul>
+<li>Biohazard containments</li>
+</ul>
+</li>
+<li>Containment
+<ul>
+<li>duh</li>
+</ul>
+</li>
+<li>Dimension (Dim)
+<ul>
+<li>Contains extradimensional things</li>
+</ul>
+</li>
+<li>Humanoid
+<ul>
+<li>Duh</li>
+</ul>
+</li>
+<li>Protected
+<ul>
+<li>No anomalous influence. Kind of a safe zone to keep away from anomalies. might have some special protection</li>
+</ul>
+</li>
+<li>Provisional
+<ul>
+<li>Not pre built but rather built around an anomaly that can't be relocated.</li>
+</ul>
+</li>
+<li>Reliquary
+<ul>
+<li>Kind of a museum or safehold for sensitive artifacts.</li>
+</ul>
+</li>
+<li>Research
+<ul>
+<li>duh</li>
+</ul>
+</li>
+<li>Storage
+<ul>
+<li>duh</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>List of facilities (partial):
+There's a countless lot of facilities to pick from these are the most common ones we will likely pick from here.</p>
+<ul>
+<li>Site-01
+<ul>
+<li>Classified safe zone for 05 council and data backup</li>
+<li>No Anomalies (except the 05 council themselves of course)</li>
+<li>Likely wont be involved this iteration.</li>
+</ul>
+</li>
+<li>Site-06-3
+<ul>
+<li>Lorraine, France</li>
+<li>Use to be in the US then Germany before here</li>
+<li>Low risk human and humanoid SCPs</li>
+<li>This could be great for an easy first campaign but might not be as interesting.</li>
+<li>This might be useful as a stopping point between sites where the players meet an SCP that joins their journey or helps them in some way.</li>
+<li>Putting on hold for now as having a more core site is more important.</li>
+</ul>
+</li>
+<li>Site 19
+<ul>
+<li>Largest facility in operation</li>
+<li>Lansing, Michigan</li>
+<li>So far looks like it would make an excellent starting location and maybe works as a standalone map due to its size.</li>
+<li>Ok this is absoltely going to be the first campaign lets get started.</li>
+<li>SCP 131
+<ul>
+<li>Safe</li>
+<li><a href="http://www.scpwiki.com/scp-131">http://www.scpwiki.com/scp-131</a></li>
+<li>Friendly</li>
+<li>makes high pitched babbling sound</li>
+<li>like a cat</li>
+<li>bonds with the players</li>
+<li>Warns of danger</li>
+<li>Roaming the site freely</li>
+</ul>
+</li>
+<li>SCP 173
+<ul>
+<li>No introduction needed</li>
+<li>Players will need to announce their actions to avoid being harmed</li>
+<li>Need to find a stat block for this guy.</li>
+</ul>
+</li>
+<li>SCP 055
+<ul>
+<li><a href="http://www.scpwiki.com/scp-055">http://www.scpwiki.com/scp-055</a></li>
+<li>There will be no defense against the anti-meme but I will roll to see if a player is harmed.</li>
+<li>Entry of certain distance of the SCP will result in the roll.</li>
+</ul>
+</li>
+<li>SCP 387
+<ul>
+<li><a href="http://www.scpwiki.com/scp-387">http://www.scpwiki.com/scp-387</a></li>
+<li>Just for fun and story telling</li>
+</ul>
+</li>
+<li>SCP 931
+<ul>
+<li>Just for fun and story telling</li>
+<li><a href="http://www.scpwiki.com/scp-931">http://www.scpwiki.com/scp-931</a></li>
+</ul>
+</li>
+<li>Dr. Jack Bright
+<ul>
+<li><a href="https://versus-compendium.fandom.com/wiki/Dr._Jack_Bright">https://versus-compendium.fandom.com/wiki/Dr._Jack_Bright</a></li>
+<li>Chainsaw</li>
+<li>Chainsaw Canon</li>
+<li>Atomic Revolver</li>
+<li>Hive Mind</li>
+</ul>
+</li>
+<li>SCP 006-J
+<ul>
+<li><a href="http://www.scpwiki.com/scp-006-j">http://www.scpwiki.com/scp-006-j</a></li>
+</ul>
+</li>
+<li>SCP 500
+<ul>
+<li><a href="http://www.scpwiki.com/scp-500">http://www.scpwiki.com/scp-500</a></li>
+<li>Single Use Magical Item</li>
+<li>Cures disease and brings to full health.</li>
+</ul>
+</li>
+<li>SCP 017
+<ul>
+<li>Good for a puzzle or hazardous zone</li>
+<li><a href="http://www.scpwiki.com/scp-017">http://www.scpwiki.com/scp-017</a></li>
+<li>Reflective Suits</li>
+<li>Spotlights</li>
+<li>Some spells could help with this.</li>
+</ul>
+</li>
+<li>SCP 3023
+<ul>
+<li><a href="http://www.scpwiki.com/scp-3023">http://www.scpwiki.com/scp-3023</a></li>
+<li>Could be good small enemies.
+<ul>
+<li>spider
+<ul>
+<li><a href="https://roll20.net/compendium/dnd5e/Spider#content">https://roll20.net/compendium/dnd5e/Spider#content</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Maybe wolves or I could find spiders in DnD creatures.</li>
+<li>Maybe have an outbreak of a lot of them from some containment.</li>
+<li>
+<h2 id="spider-tank">spider tank</h2>
+</li>
+</ul>
+</li>
+<li>SCP 008
+<ul>
+<li><a href="http://www.scpwiki.com/scp-008">http://www.scpwiki.com/scp-008</a></li>
+<li>Good hazard zone.</li>
+<li>Could really mess with players.</li>
+</ul>
+</li>
+<li>SCP 007
+<ul>
+<li><a href="http://www.scpwiki.com/scp-007">http://www.scpwiki.com/scp-007</a></li>
+<li>maybe fun NPC guide</li>
+</ul>
+</li>
+<li>SCP 019
+<ul>
+<li><a href="http://www.scpwiki.com/scp-019">http://www.scpwiki.com/scp-019</a></li>
+<li>Another great way to generate enemies.</li>
+</ul>
+</li>
+<li>SCP 027
+<ul>
+<li><a href="http://www.scpwiki.com/scp-027">http://www.scpwiki.com/scp-027</a></li>
+<li>Another great candidate for small enemies.</li>
+</ul>
+</li>
+<li>SCP 023
+<ul>
+<li><a href="http://scp-wiki.wikidot.com/scp-023">http://scp-wiki.wikidot.com/scp-023</a></li>
+<li>maybe</li>
+</ul>
+</li>
+<li>SCP 2820
+<ul>
+<li><a href="http://www.scpwiki.com/scp-2820">http://www.scpwiki.com/scp-2820</a></li>
+<li>Useful tool and maybe magic item</li>
+</ul>
+</li>
+<li>SCP 029
+<ul>
+<li><a href="http://www.scpwiki.com/scp-029">http://www.scpwiki.com/scp-029</a></li>
+<li>Could make for an amazing boss battle</li>
+<li>High dexterity</li>
+</ul>
+</li>
+<li>SCP 2845
+<ul>
+<li>This will be the final boss</li>
+<li>based on DnD Solar
+<ul>
+<li><a href="https://5thsrd.org/gamemaster_rules/monsters/solar/">https://5thsrd.org/gamemaster_rules/monsters/solar/</a></li>
+<li>TODO: Fully understand and implement 2845's attacks</li>
+</ul>
+</li>
+<li><a href="https://vsbattles.fandom.com/wiki/SCP-2845">https://vsbattles.fandom.com/wiki/SCP-2845</a></li>
+<li><img src="file:////home/doge/Documents/src/DnDCampaigns/scpv1/scp_2845_by_amamidori_dakxg9t.png" alt="3845"></li>
+</ul>
+</li>
+<li>SCP 2295
+<ul>
+<li><a href="http://www.scpwiki.com/scp-2295">http://www.scpwiki.com/scp-2295</a></li>
+</ul>
+</li>
+<li>butt ghost
+<ul>
+<li><a href="http://www.scpwiki.com/scp-789-j">http://www.scpwiki.com/scp-789-j</a></li>
+</ul>
+</li>
+<li>SCP 1048
+<ul>
+<li><a href="http://scp-wiki.wikidot.com/scp-1048">http://scp-wiki.wikidot.com/scp-1048</a></li>
+<li>Small enemy</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="guide-characters">Guide characters</h5>
+<p>It might be a good idea to add in some kind of side NPC character be it an anomaly or employee that follows the players and helps guide them through the world.</p>
+<h5 id="storage-sectors">Storage Sectors</h5>
+<ul>
+<li>Storage rooms are secured rooms which contain useful items, information, and sometimes SCPs.</li>
+<li>Result of opening one is always positive or neutral.</li>
+<li>Storage rooms can be locked by terminals of varying difficulties or not be locked at DM's choice.</li>
+</ul>
+<h5 id="mobile-terminals">Mobile Terminals</h5>
+<ul>
+<li>This could be a powerful late-game item basically a &quot;pokedex for SCPs&quot;</li>
+<li>Can be used to quickly make intelligence rolls to learn more about a creature or anomaly.</li>
+</ul>
+<h5 id="site-19-sectors">Site-19 Sectors</h5>
+<ul>
+<li>
+<p>Hangar Bays 1-30.</p>
+</li>
+<li>
+<p>Manufacturing department industrial buildings</p>
+</li>
+<li>
+<p>SCP-2918 Containment hangar.</p>
+</li>
+<li>
+<p>55th Wing dislocation.</p>
+</li>
+<li>
+<p>Research Wing A.</p>
+</li>
+<li>
+<p>Mobile Task Force quarters (disguised as the U.S military).</p>
+</li>
+<li>
+<p>Foundation aircraft. MTF-Zeta-5 (&quot;Lazarus Abominables&quot;) operation base.</p>
+</li>
+<li>
+<p>Logistics Department (disguised as the U.S. military storage.).</p>
+</li>
+<li>
+<p>Hospital buling.</p>
+</li>
+<li>
+<p>Community Commercial &amp; Services.</p>
+</li>
+<li>
+<p>Mobile Task Force General Supply Depo.</p>
+</li>
+<li>
+<p>Office Buildings.</p>
+</li>
+<li>
+<p>Government buildings.</p>
+</li>
+<li>
+<p>Foundation owned apartments as restrooms for Foundation personnel.</p>
+</li>
+<li>
+<p>Facility 23.</p>
+</li>
+<li>
+<p>Solar System Oversight Department observatory.</p>
+</li>
+<li>
+<p>Research Sector 2:</p>
+<ul>
+<li>Floor 1: Access to Sector-1. Emergency exit. Checkpoint.</li>
+<li>Floor 2-4: Buffer zone. Security Office.</li>
+<li>Floor 5 &amp; 6: Equipment Testing Facility.</li>
+<li>Floor 7: Cafeteria. Food storage.</li>
+<li>Floor 8: Site-Dormitories Block.</li>
+<li>Floor 9: Hospital wing.</li>
+<li>Floor 10: Research-Labs room.</li>
+<li>Floor 11: Secure Humanoid Containment Cells</li>
+<li>Floor 12-14: Safe class containment wing. Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 15 &amp; 16: High Value Item Storage Facility. Storage Lockers.</li>
+<li>Floor 17-21: Safe class humanoid entity containment.</li>
+<li>Floor 22: Safe class containment wing.</li>
+<li>Floor 23 &amp; 24:Test chambers. Access to Sector-3</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 3:</p>
+<ul>
+<li>Floor 1 &amp; 2: Standard humanoid containment cells</li>
+<li>Floor 3: Access to Sector-2. Research-Labs rooms</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms.</li>
+<li>Floor 6: Research-Labs room. Head Security Office.</li>
+<li>Floor 7: Site-Dormitories Block. Department-head Offices.</li>
+<li>Floor 8: Site-Dormitories Block. Medical-Ward.</li>
+<li>Floor 9: Engineering and Technical Service Department.</li>
+<li>Floor 10: Research-Labs room.</li>
+<li>Floor 11: Class-D Dormitories. Security Office. Training Facility.</li>
+<li>Floor 12-16: Cafeteria. Food storage.</li>
+<li>Floor 17-22: Research-Labs rooms.</li>
+<li>Floor 23 &amp; 24: Research-Labs room. Access to Sector-4.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 4:</p>
+<ul>
+<li>Floor 1 &amp; 2: Standard humanoid containment cells</li>
+<li>Floor 3: Access to Section-3.</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms. Euclid Class Containment.</li>
+<li>Floor 6: Storage Lockers</li>
+<li>Floor 7: Site-Dormitories Block. Security offices.</li>
+<li>Floor 8: Hospital wing.</li>
+<li>Floor 9 &amp; 10: Research Wing B.</li>
+<li>Floor 11: Class-D Dormitories. Security Office.</li>
+<li>Floor 12: High Value Item Storage Facility. Storage Lockers.</li>
+<li>Floor 13: Cafeteria. Food storage.</li>
+<li>Floor 14: Armory. Security offices</li>
+<li>Floor 15-22: Safe Class Containment. Security offices.</li>
+<li>Floor 23-25: Research-Labs rooms.</li>
+<li>Floor 26 &amp; 27: Test chambers.</li>
+<li>Floor 28-30: Site-Dormitories Access to Sector-5.</li>
+</ul>
+</li>
+<li>
+<p>Residential Sector 5:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-8. Security offices.</li>
+<li>Floor 3-6: Offices.</li>
+<li>Floor 7-12: Site-Dormitories Block.</li>
+<li>Floor 13-16: Class-D Dormitories.</li>
+<li>Floor 17-19: Food storage.</li>
+<li>Floor 20: Cafeteria.</li>
+<li>Floor 21 &amp; 22: Hospital wing.</li>
+<li>Floor 23: Security offices.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26-28: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 29: Access to Sector-6. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 6:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-5. Security offices</li>
+<li>Floor 3: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 4-7: Security offices. Training Facility.</li>
+<li>Floor 8: Test chambers.</li>
+<li>Floor 9: research-Labs rooms</li>
+<li>Floor 10: Storage lockers.</li>
+<li>Floor 11: Records and Information Security Administration (RAISA) administration offices. Site-19 data servers.</li>
+<li>Floor 12: Cafeteria. Food storage.</li>
+<li>Floor 13 &amp; 14: Multi-propose rooms.</li>
+<li>Floor 15-17: Offices. Security offices. Armory</li>
+<li>Floor 18 &amp; 19: Engineering and Technical Service Department offices</li>
+<li>Floor 20-25: research-Labs rooms. Site-Dormitories. Hospital wing.</li>
+<li>Floor 26: Meeting rooms with other GOI's.</li>
+<li>Floor 26: Storage lockers. Access to Sector-7.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 7:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-6. Security offices.</li>
+<li>Floor 3: High Value Item Storage lockers.</li>
+<li>Floor 4-8: Cafeteria. Food storage.</li>
+<li>Floor 9: Department of Occult Containment.</li>
+<li>Floor 10: Hospital wing.</li>
+<li>Floor 11: Research-Labs rooms.</li>
+<li>Floor 12: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 13:Safe Class Containment.</li>
+<li>Floor 14: Multi-propose rooms.</li>
+<li>Floor 15-22: Secure Humanoid Containment Cells</li>
+<li>Floor 23-25: Department of Miscommunications (DoMc) offices. Security offices.</li>
+<li>Floor 26: Research-Labs rooms. Access to Sector-8.</li>
+</ul>
+</li>
+<li>
+<p>Research Sector 8:</p>
+<ul>
+<li>Floor 1: Access to Sector-7. Security offices.</li>
+<li>Floor 2: Item Storage lockers.</li>
+<li>Floor 3: Test chambers.</li>
+<li>Floor 4 &amp; 5: Research-Labs rooms.</li>
+<li>Floor 9: Security offices.</li>
+<li>Floor 10: Multi-propose rooms.</li>
+<li>Floor 11 &amp; 12: Cafeteria. Food storage.</li>
+<li>Floor 13: High Value Item Storage lockers.</li>
+<li>Floor 14 &amp; 15: Research-Labs rooms.</li>
+<li>Floor 16-20: Safe Class Containment. Euclid Class Containment.</li>
+<li>Floor 21-25: Site-Dormitories Block.</li>
+<li>Floor 26 &amp; 27: Research Wing C.</li>
+<li>Floor 28: Access to Sector-9</li>
+</ul>
+</li>
+<li>
+<p>Office Sector 9:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-8. Security offices.</li>
+<li>Floor 3 &amp; 4: Class-D Dormitories.</li>
+<li>Floor 5: Research-Labs room.</li>
+<li>Floor 6: Cafeteria.</li>
+<li>Floor 7: Site-19 data servers.</li>
+<li>Floor 8: Living Quarters of Maintenance Personnel and Janitors.</li>
+<li>Floor 9: Office of Tactical Theology</li>
+<li>Floor 10-13: Offices.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-17: Test chambers.</li>
+<li>Floor 23-25: Site-Dormitories Block.</li>
+<li>Floor 26: Offices.</li>
+<li>Floor 27: Access to Sector-10. Security offices.</li>
+</ul>
+</li>
+<li>
+<p>Containment Sector 10:</p>
+<ul>
+<li>Floor 1 &amp; 2: Access to Sector-9. Offices.</li>
+<li>Floor 3: Safe Class Containment.</li>
+<li>Floor 4-8: Research-Labs room.</li>
+<li>Floor 7 &amp; 9: Class-D Dormitories.</li>
+<li>Floor 10: High Value Item Storage lockers.</li>
+<li>Floor 11: Security offices.</li>
+<li>Floor 12 &amp; 13: Test chambers.</li>
+<li>Floor 14: Armored Security offices.</li>
+<li>Floor 15-18: Euclid Class Containment. Security offices.</li>
+<li>Floor 19-22: Armored Security offices. Research-Labs room.</li>
+<li>Floor 23: Access to Sector-11.</li>
+</ul>
+</li>
+</ul>
+
+            
+            
+        </body>
+        </html>

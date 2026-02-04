@@ -5,7 +5,7 @@
 ---
 **Weapon Type:** Rifle Common
 **Damage:** 2d6 + DEX + PROF Piercing
-**Range:** 10ft./500ft.
+**Range:** 80ft/240ft.
 
 **Ammunition:** 5.56x45mm NATO ammunition (20 rounds)
 
